@@ -1,0 +1,44 @@
+header {
+  text-align: center;
+}
+
+#questions {
+  background-color: #E8ECED;
+  max-width: 25%;
+  float:left;
+}
+
+#the_tree {
+  width: 75%;
+
+}
+
+#tree {
+  float: right;
+  background-color: #CBDCF2;
+  margin-bottom: -3px;
+}
+
+#roots {
+  float: right;
+  clear:both;
+  background-color: #BF873D;
+}
+
+#tree_canvas {
+  /*width: 500px;*/
+  /*height: 300px;*/
+  margin-bottom: -3px;
+  /*border: 1px solid black;*/
+}
+
+#root_canvas {
+  /*width: 500px;*/
+  /*height: 300px;*/
+  /*border: 1px solid black;*/
+}
+
+footer{
+  clear: both;
+  text-align: center;
+}

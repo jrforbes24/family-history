@@ -1,0 +1,9 @@
+game to help children get excited about family history
+
+the idea I have is one of a growing tree when they enter names, with the names
+going to different places or maybe branches on the tree. Not sure how to do this
+but it might be fun to learn.
+
+drop down to select relationship
+text field to input family names
+drawing field function to call per family member
