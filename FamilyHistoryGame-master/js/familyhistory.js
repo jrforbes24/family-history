@@ -18,7 +18,7 @@ function check_answer(answer){
 function ask_question(){
   // get element id
   for (quest in the_questions){
-    document.getElementById("question").innerHTML = the_questions[quest];
+    document.getElementById("question").innerHTML = the_questions.one;
   }
 
 }
@@ -37,10 +37,13 @@ function draw() {
   var ctx = c.getContext('2d');
 
   ctx.fillStyle = "rgba(135, 118, 50, 0.5)";
-  ctx.fillRect(225, 250, 50, 50);
+  ctx.fillRect(225, 250, 30, 50);
 
   ctx.fillStyle = "rgba(139, 139, 59, 0.7)";
-  ctx.fillRect(221, 240, 50, 55);
+  ctx.fillRect(221, 240, 30, 55);
+
+  ctx.fillStyle = "rgba(139, 139, 59, 0.7)";
+  ctx.fillRect(222, 245, 30, 55);
 
 }
 
